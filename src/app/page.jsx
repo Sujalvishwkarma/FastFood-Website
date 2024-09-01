@@ -11,7 +11,7 @@ export default function Home() {
       <Header position="absolute" />
       <main>
         <section className="h-screen flex items-center">
-          <div className="grid grid-cols-2 px-16">
+          <div className="grid grid-cols-2 px-16 mx-auto">
             <div className="flex flex-col justify-center gap">
               <div className="bg-orange-200 w-fit rounded-full p-3">
                 <h2 className="text-primary">More than Faster</h2>
