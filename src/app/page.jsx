@@ -43,7 +43,7 @@ export default function Home() {
 
             </div>
             <div className="">
-              <Image className="m-auto" width={600} height={600} src={'/images/hero.png'} alt="image" />
+              <Image className="m-auto" width={600} height={600} src={'./images/hero.png'} alt="image" />
             </div>
           </div>
         </section>
