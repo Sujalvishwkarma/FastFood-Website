@@ -28,9 +28,9 @@ export default function Home() {
               </div>
               <div className="flex mt-4 items-center gap-8">
                 <div className="flex w-20 relative">
-                  <Image className="border shadow rounded-full bg-white" src={'/images/hero.png'} height={50} width={50} />
-                  <Image className="border shadow rounded-full bg-white absolute left-6 top-0 z-10" src={'/images/hero.png'} height={50} width={50} />
-                  <Image className="border shadow rounded-full bg-white absolute left-12 top-0 z-20" src={'/images/hero.png'} height={50} width={50} />
+                  <Image className="border shadow rounded-full bg-white" src={'/images/hero.png'} height={50} width={50} alt="image"/>
+                  <Image className="border shadow rounded-full bg-white absolute left-6 top-0 z-10" src={'/images/hero.png'} height={50} width={50} alt="image"/>
+                  <Image className="border shadow rounded-full bg-white absolute left-12 top-0 z-20" src={'/images/hero.png'} height={50} width={50} alt="image"/>
                 </div>
                 <div className="font-bold">
                   <h2 className="">Happy Customers</h2>
@@ -43,7 +43,7 @@ export default function Home() {
 
             </div>
             <div className="">
-              <Image className="m-auto" width={600} height={600} src={'/images/hero.png'} />
+              <Image className="m-auto" width={600} height={600} src={'/images/hero.png'} alt="image" />
             </div>
           </div>
         </section>
@@ -99,10 +99,10 @@ export default function Home() {
               <div className="">
                 <h3 className="text-primary font-bold">WHAT THEY SAY</h3>
                 <h1 className="font-bold text-4xl my-3">What Customers Says About Us</h1>
-                <p>"Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas odio enim, recusandae, ipsa molestias ducimus reprehenderit sequi pariatur voluptate mollitia quaerat optio velit magni perferendis consequuntur harum excepturi voluptates atque veritatis, rem earum a sapiente!"</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas odio enim, recusandae, ipsa molestias ducimus reprehenderit sequi pariatur voluptate mollitia quaerat optio velit magni perferendis consequuntur harum excepturi voluptates atque veritatis, rem earum a sapiente!</p>
                 <div className="my-5">
                   <div className="flex gap-3">
-                    <Image className="rounded-full border" src={'/images/hero.png'} height={50} width={50} />
+                    <Image className="rounded-full border" src={'/images/hero.png'} height={50} width={50} alt="image" />
                     <span>
                       <h1 className="font-bold">Sujal Vishwkarma</h1>
                       <p className="text-xs">Food Enthusiast</p>
@@ -126,14 +126,14 @@ export default function Home() {
                   <p className="">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae possimus a nisi deserunt tempore commodi maxime quisquam debitis quae earum! Distinctio tempore iure voluptate vel molestiae perferendis ab animi quam!</p>
                 </div>
                 <div className="bg-yellow-500 rounded-xl flex flex-col items-center justify-center w-32 h-40">
-                  <Image className="border rounded-full" src={'/images/success.png'} height={100} width={100} alt="" />
+                  <Image className="border rounded-full" src={'/images/success.png'} height={100} width={100} alt="image" />
                   <h1 className="font-bold my-2 text-sm">Order Confirmed</h1>
                 </div>
               </div>
               <Link href={''} className="p-3 rounded-full border border-yellow-500 flex w-fit bg-yellow-400 text-primary">Get The App</Link>
               <div className="ml-[50%]">
                 <div className="bg-white w-fit p-2 rounded-3xl items-center gap-2 flex border-slate-400">
-                  <Image src={'/images/hero.png'} height={50} width={50} alt=""/>
+                  <Image src={'/images/hero.png'} height={50} width={50} alt="image"/>
                   <div>
                     <h4>Sujal Vishwkarma</h4>
                     <h6>Designation</h6>

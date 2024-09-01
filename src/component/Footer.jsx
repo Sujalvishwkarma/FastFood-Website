@@ -24,7 +24,7 @@ export default function Footer(props) {
                             <h4 className="font-bold underline text-xl">About</h4>
                             <ul>
                                 {AboutLinks.map((item, index) => (
-                                    <FooterLink name={item.name} href={item.href} />
+                                    <FooterLink key={index} name={item.name} href={item.href} />
                                 ))}
                             </ul>
                         </div>
@@ -32,7 +32,7 @@ export default function Footer(props) {
                             <h4 className="font-bold underline text-xl">Company</h4>
                             <ul>
                                 {CompanyLinks.map((item, index) => (
-                                    <FooterLink name={item.name} href={item.href} />
+                                    <FooterLink key={index} name={item.name} href={item.href} />
                                 ))}
                             </ul>
                         </div>
@@ -40,7 +40,7 @@ export default function Footer(props) {
                             <h4 className="font-bold underline text-xl">Support</h4>
                             <ul>
                                 {SupportLink.map((item, index) => (
-                                    <FooterLink name={item.name} href={item.href} />
+                                    <FooterLink key={index} name={item.name} href={item.href} />
                                 ))}
                             </ul>
                         </div>

@@ -16,7 +16,7 @@ export function ServiceBox(props) {
     return (
         <div className="w-1/4 p-5 border shadow-lg rounded-lg">
             <div className="w-full flex justify-center">
-                <Image src={props.image} width={200} height={200} />
+                <Image src={props.image} width={200} height={200} alt="image" />
             </div>
             <div className="text-center">
                 <h1 className="font-bold text-2xl">{props.heading}</h1>

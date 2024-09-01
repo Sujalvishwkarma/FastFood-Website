@@ -105,7 +105,7 @@ export function PrimaryNavbarLink(props) {
             {props.dropdownlink && (
                 <div className="absolute z-10 bg-white invisible peer-hover:visible peer-focus-within:visible hover:visible flex-col flex p-3 border shadow-xl rounded-md">
                     {props.dropdownlink.map((item, index) => (
-                        <Link className="p-1 hover:font-bold hover:text-primary" key={index} href={item.href}>{item.name}</Link>
+                        <Link key={index} className="p-1 hover:font-bold hover:text-primary" href={item.href}>{item.name}</Link>
                     ))}
                 </div>
             )}
@@ -114,6 +114,6 @@ export function PrimaryNavbarLink(props) {
 }
 export function FooterLink(props) {
     return (
-        <li><Link className="hover:ml-3 hover:transition duration-300 hover:font-bold hover:text-primary" href={props.href}>{props.name}</Link></li>
+        <li key={props.key}><Link className="hover:ml-3 hover:transition duration-300 hover:font-bold hover:text-primary" href={props.href}>{props.name}</Link></li>
     )
 }
